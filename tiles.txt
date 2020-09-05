@@ -1,0 +1,2 @@
+	# CHURCH #
+	{ "rbrn_keeper_core" "@" ColorId YELLOW }
