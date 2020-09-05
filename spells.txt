@@ -1,0 +1,9 @@
+"Displace"
+{
+  symbol = "🌀"
+  effect = Teleport
+  range = 2
+  cooldown = 20
+  endOnly = true
+  sound = SPELL_TELEPORT
+}
