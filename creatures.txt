@@ -35,8 +35,6 @@
     spellSchools = { "mage" }
     spells = { "healing" "displace" "reborn stone golem"}
     inventory = {
-      # Here comes a list of items. The format of each element is defined in creature_inventory.h
-      { Simple "Robe"}
-      # Take a look a CYCLOPS for a more detailed example.
     }
+	hatedByEffect = HATE_HUMANS
   }
