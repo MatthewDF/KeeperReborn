@@ -4,7 +4,7 @@
       ids = { "ISEKAI_CLAY_GOLEM" }
       traits = { WORKER NO_LIMIT NO_EQUIPMENT }
       noAuto = true
-      initialRecruitment = 0
+      initialRecruitment = 2
 	  keybinding = CREATE_IMP
       spawnLocation = NearLeader
       requirements = {

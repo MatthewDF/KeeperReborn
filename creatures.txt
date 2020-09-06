@@ -24,8 +24,9 @@
 	}
     # skill.h
     skills = {
-      "LABORATORY" 0.2
+      "LABORATORY" .2
 	  "WORKSHOP" .2
+	  "FORGE" .2
     }
     # experience_type.h
     maxLevelIncrease = {
@@ -33,7 +34,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "displace" "reborn stone golem"}
+    spells = { "healing" "displace"}
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
@@ -51,8 +52,9 @@
       material = CLAY
     }
 	skills = {
-		"DIGGING" 0.3
+		"DIGGING" 0.2
 		"WORKSHOP" .1
+		"FORGE" .1
 	}
     permanentEffects = {
       MELEE_RESISTANCE 1

@@ -2,8 +2,8 @@
 {
   symbol = "❇️"
   effect = Teleport
-  range = 3
-  cooldown = 150
+  range = 15
+  cooldown = 650
   endOnly = true
   sound = SPELL_TELEPORT
 }
