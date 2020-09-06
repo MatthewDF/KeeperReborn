@@ -34,7 +34,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "displace" "reborn rock wall" "reborn rock spire"}
+    spells = { "healing" "displace" "reborn rock spire"}
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
@@ -42,7 +42,7 @@
   
   "ISEKAI_CLAY_GOLEM"
   {
-    viewId = { "clay_golem" }
+    viewId = { "rbrn_clay_golem" }
     attr = {
       DAMAGE 12
       DEFENSE 21 
@@ -52,9 +52,8 @@
       material = CLAY
     }
 	skills = {
-		"DIGGING" 0.2
-		"WORKSHOP" .1
-		"FORGE" .1
+		"DIGGING" 0.4
+
 	}
     permanentEffects = {
       MELEE_RESISTANCE 1
@@ -65,26 +64,35 @@
     }
   }
   
-  "ISEKAI_ROCK_WALL"
+  "ISEKAI_CLAY_SPIDER"
   {
-  viewId = { "rbrn_rock_wall_6" }
+    viewId = { "rbrn_clay_spider" }
     attr = {
-      DAMAGE 0
-      DEFENSE 21 
+      DAMAGE 5
+      DEFENSE 16 
     }
     body = {
-      type = HumanoidLike LARGE
-      material = ROCK
-	  weight = 500
-	  deathSound = none
+      type = Humanoid MEDIUM
+	  material = CLAY
+      bodyParts = {
+        LEG 8
+        TORSO 1
+      }
+
+      weight = 0.3
+      deathSound = none
+      intrinsicAttacks = {
+        TORSO {{{ Intrinsic { "bite_attack" } "fangs" 1 {
+            attackType = BITE
+            attackMsg = BITE
+            victimEffect = {0.1 Lasting POISON} } }}}
+      }
     }
 	skills = {
-
+		"WORKSHOP" 0.1
+		"FORGE" 0.1
 	}
-    permanentEffects = {
-      MELEE_RESISTANCE 1
-    }
     name = {
-      name = "rock wall"
+      name = "clay spider"
     }
   }

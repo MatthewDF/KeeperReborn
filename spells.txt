@@ -18,7 +18,7 @@
 	 PlaceFurniture "ISEKAI_ROCK_WALL_5"
 	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
 	 }
-   cooldown = 60
+   cooldown = 300
    range = 5
    sound = SPELL_METEOR_SHOWER
  }
@@ -35,7 +35,7 @@
 	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
 	 }
    endOnly = true
-   cooldown = 1
+   cooldown = 60
    range = 5
    sound = SPELL_METEOR_SHOWER
  }
