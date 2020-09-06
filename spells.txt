@@ -1,9 +1,16 @@
-"Displace"
+"displace"
 {
-  symbol = "🌀"
+  symbol = "❇️"
   effect = Teleport
-  range = 2
-  cooldown = 20
+  range = 15
+  cooldown = 650
   endOnly = true
   sound = SPELL_TELEPORT
 }
+"reborn stone golem"
+  {
+   symbol = "👤"
+   effect = Name "stone golem" Summon "STONE_GOLEM" { 1 2 } 900
+   cooldown = 100
+   sound = SPELL_TELEPORT
+ }

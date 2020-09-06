@@ -2,19 +2,21 @@
 {
   creatureId = { "ISEKAI_KEEPER_CORE" }
   tribeAlignment = EVIL
-  immigrantGroups = {"imps" "dark_keeper"}
+  immigrantGroups = {"reborn keeper core"}
   technology = {
       "alchemy" "advanced alchemy" "alchemical conversion" "humanoid mutation" "beast mutation"
       "pig breeding" "iron working" "jewellery" "two-handed weapons" "traps" "archery" "sorcery"
-      "advanced sorcery" "magical weapons" "master sorcery" "demonology" "distillation" "automatons"
+      "advanced sorcery" "magical weapons" "master sorcery" "demonology" "distillation" "automatons" "advanced automatons" "automaton brains"
+	  "aerodynamics" "incendiary alchemy"
   }
   initialTech = { "sorcery" "automatons"}
   buildingGroups = {
-      "structure" "doors" "floors" "storage" "zones" "library" "throne" "beds" "beast_cage" "pigsty" "coffins"
-      "training" "crafting" "laboratory" "jeweller" "poetry" "distillery" "demon_shrine" "prison" "orders"
-      "installations" "magical_installations" "traps"
+      "structure" "doors" "floors" "storage" "zones" "library" "throne" "beds""pigsty"
+      "crafting" "laboratory" "jeweller" "poetry" "distillery" "prison" "orders"
+      "installations" "magical_installations" "traps" "automatons"
   }
-  workshopGroups = { "basic" "traps" }
+  workshopGroups = { "gnomes" "traps" "basic" }
+  maxPopulation = 0
   description = "You struggle to remember your last moments. You wake from blackness, and suddenly you see a strange new world before you..."
 # Special traits example, all traits are added
 #   specialTraits = { LastingEffect SPEED ExtraTraining MELEE 5 }

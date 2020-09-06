@@ -1,0 +1,14 @@
+"reborn keeper core"
+{
+    {
+      ids = { "ISEKAI_CLAY_GOLEM" }
+      traits = { WORKER NO_LIMIT NO_EQUIPMENT }
+      noAuto = true
+      initialRecruitment = 2
+	  keybinding = CREATE_IMP
+      spawnLocation = NearLeader
+      requirements = {
+        { 1 ExponentialCost "GOLD" 300 10 5 }
+      }
+    }
+}
