@@ -34,7 +34,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "displace" "reborn rock wall"}
+    spells = { "healing" "displace" "reborn rock wall" "reborn rock spire"}
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
@@ -67,7 +67,7 @@
   
   "ISEKAI_ROCK_WALL"
   {
-  viewId = { "rbrn_rock_wall_5" }
+  viewId = { "rbrn_rock_wall_6" }
     attr = {
       DAMAGE 0
       DEFENSE 21 

@@ -10,8 +10,32 @@
 "reborn rock wall"
   {
    symbol = "⛰️"
-   effect = Name "stone wall" PlaceFurniture "ISEKAI_ROCK_WALL"
+   effect = Name "rock wall" ChooseRandom { 
+     PlaceFurniture "ISEKAI_ROCK_WALL_1"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_2"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_3"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_4"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_5"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
+	 }
    cooldown = 60
+   range = 5
+   sound = SPELL_METEOR_SHOWER
+ }
+ 
+ "reborn rock spire"
+   {
+   symbol = "⛰️"
+   effect = Name "rock spire" ChooseRandom { 
+     PlaceFurniture "ISEKAI_ROCK_WALL_1"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_2"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_3"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_4"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_5"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
+	 }
+   endOnly = true
+   cooldown = 1
    range = 5
    sound = SPELL_METEOR_SHOWER
  }
