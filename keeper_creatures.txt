@@ -2,7 +2,7 @@
 {
   creatureId = { "ISEKAI_KEEPER_CORE" }
   tribeAlignment = EVIL
-  immigrantGroups = {"imps" "dark_keeper"}
+  immigrantGroups = {"reborn keeper core"}
   technology = {
       "alchemy" "advanced alchemy" "alchemical conversion" "humanoid mutation" "beast mutation"
       "pig breeding" "iron working" "jewellery" "two-handed weapons" "traps" "archery" "sorcery"

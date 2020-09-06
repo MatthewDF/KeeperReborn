@@ -18,7 +18,6 @@
       SPELL_DAMAGE 24
     }
 	permanentEffects = {
-		BLIND 1
 		IMMOBILE 1
 		TELEPATHY 1
 		WARNING 1
@@ -26,6 +25,7 @@
     # skill.h
     skills = {
       "LABORATORY" 0.2
+	  "WORKSHOP" .2
     }
     # experience_type.h
     maxLevelIncrease = {
@@ -37,4 +37,28 @@
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
+  }
+  
+  "ISEKAI_CLAY_GOLEM"
+  {
+    viewId = { "clay_golem" }
+    attr = {
+      DAMAGE 12
+      DEFENSE 21 
+    }
+    body = {
+      type = Humanoid LARGE
+      material = CLAY
+    }
+	skills = {
+		"DIGGING" 0.3
+		"WORKSHOP" .1
+	}
+    permanentEffects = {
+      MELEE_RESISTANCE 1
+	  NO_CARRY_LIMIT 1
+    }
+    name = {
+      name = "clay golem"
+    }
   }
