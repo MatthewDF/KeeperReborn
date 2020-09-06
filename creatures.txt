@@ -18,10 +18,10 @@
       SPELL_DAMAGE 24
     }
 	permanentEffects = {
-		TIED_UP 1
+		BLIND 1
+		IMMOBILE 1
 		TELEPATHY 1
-		SUMMONED 1
-		LIGHT_SOURCE 1
+		WARNING 1
 	}
     # skill.h
     skills = {
@@ -33,7 +33,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "teleport" }
+    spells = { "healing" "displace" "reborn stone golem"}
     inventory = {
       # Here comes a list of items. The format of each element is defined in creature_inventory.h
       { Simple "Robe"}
