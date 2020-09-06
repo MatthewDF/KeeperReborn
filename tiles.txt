@@ -1,2 +1,3 @@
-	# CHURCH #
+	# ISEKAI REBORN KEEPER CORE #
 	{ "rbrn_keeper_core" "@" ColorId YELLOW }
+	{ "rbrn_rock_wall_5" "@" ColorId BROWN}

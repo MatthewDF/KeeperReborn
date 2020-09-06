@@ -7,10 +7,11 @@
   endOnly = true
   sound = SPELL_TELEPORT
 }
-"reborn stone golem"
+"reborn rock wall"
   {
-   symbol = "👤"
-   effect = Name "stone golem" Summon "STONE_GOLEM" { 1 2 } 900
-   cooldown = 100
-   sound = SPELL_TELEPORT
+   symbol = "⛰️"
+   effect = Name "stone wall" PlaceFurniture "ISEKAI_ROCK_WALL"
+   cooldown = 60
+   range = 5
+   sound = SPELL_METEOR_SHOWER
  }

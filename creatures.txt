@@ -34,7 +34,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "displace"}
+    spells = { "healing" "displace" "reborn rock wall"}
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
@@ -62,5 +62,29 @@
     }
     name = {
       name = "clay golem"
+    }
+  }
+  
+  "ISEKAI_ROCK_WALL"
+  {
+  viewId = { "rbrn_rock_wall_5" }
+    attr = {
+      DAMAGE 0
+      DEFENSE 21 
+    }
+    body = {
+      type = HumanoidLike LARGE
+      material = ROCK
+	  weight = 500
+	  deathSound = none
+    }
+	skills = {
+
+	}
+    permanentEffects = {
+      MELEE_RESISTANCE 1
+    }
+    name = {
+      name = "rock wall"
     }
   }
