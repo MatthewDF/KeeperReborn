@@ -7,10 +7,35 @@
   endOnly = true
   sound = SPELL_TELEPORT
 }
-"reborn stone golem"
+"reborn rock wall"
   {
-   symbol = "👤"
-   effect = Name "stone golem" Summon "STONE_GOLEM" { 1 2 } 900
-   cooldown = 100
-   sound = SPELL_TELEPORT
+   symbol = "⛰️"
+   effect = Name "rock wall" ChooseRandom { 
+     PlaceFurniture "ISEKAI_ROCK_WALL_1"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_2"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_3"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_4"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_5"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
+	 }
+   cooldown = 300
+   range = 5
+   sound = SPELL_METEOR_SHOWER
+ }
+ 
+ "reborn rock spire"
+   {
+   symbol = "⛰️"
+   effect = Name "rock spire" ChooseRandom { 
+     PlaceFurniture "ISEKAI_ROCK_WALL_1"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_2"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_3"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_4"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_5"
+	 PlaceFurniture "ISEKAI_ROCK_WALL_6"
+	 }
+   endOnly = true
+   cooldown = 60
+   range = 5
+   sound = SPELL_METEOR_SHOWER
  }

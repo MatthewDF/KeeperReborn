@@ -8,7 +8,20 @@
 	  keybinding = CREATE_IMP
       spawnLocation = NearLeader
       requirements = {
-        { 1 ExponentialCost "GOLD" 300 10 5 }
+        { 1 ExponentialCost "STONE" 40 10 2 }
       }
+	  
     }
+	
+    {
+      ids = { "ISEKAI_CLAY_DOLL" }
+      traits = { WORKER NO_LIMIT NO_EQUIPMENT }
+      noAuto = true
+      initialRecruitment = 0
+	  keybinding = CREATE_IMP
+      spawnLocation = NearLeader
+      requirements = {
+        { 1 ExponentialCost "STONE" 30 10 1 }
+      }
+    }	
 }

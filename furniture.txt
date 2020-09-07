@@ -1,0 +1,119 @@
+"ISEKAI_ROCK_WALL_1"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_1"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}
+
+"ISEKAI_ROCK_WALL_2"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_2"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}
+
+"ISEKAI_ROCK_WALL_3"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_3"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}
+
+"ISEKAI_ROCK_WALL_4"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_4"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}
+
+"ISEKAI_ROCK_WALL_5"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_5"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}
+
+"ISEKAI_ROCK_WALL_6"
+{
+  name = "rock wall"
+  viewId = { "rbrn_rock_wall_6"} 
+  blockMovement = true
+  blockVision = { NORMAL ELF }
+  # constructMessage = FILL_UP
+  wall = true
+  xForgetAfterBuilding = true
+  strength2 = {
+    200 BOULDER
+    30 DIG
+    200 HOSTILE_DIG
+    2000 HOSTILE_DIG_NO_SKILL
+  }
+  summonedElement = "EARTH_ELEMENTAL"
+  destroyFX = { ROCK_CLOUD Rgb 220 210 180 255 }
+  tryDestroyFX = { ROCK_SPLINTERS Rgb 220 210 180 255 }
+}

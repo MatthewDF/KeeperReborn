@@ -34,7 +34,7 @@
       SPELL 12
     }
     spellSchools = { "mage" }
-    spells = { "healing" "displace"}
+    spells = { "healing" "displace" "reborn rock spire"}
     inventory = {
     }
 	hatedByEffect = HATE_HUMANS
@@ -42,7 +42,7 @@
   
   "ISEKAI_CLAY_GOLEM"
   {
-    viewId = { "clay_golem" }
+    viewId = { "rbrn_clay_golem" }
     attr = {
       DAMAGE 12
       DEFENSE 21 
@@ -52,9 +52,8 @@
       material = CLAY
     }
 	skills = {
-		"DIGGING" 0.2
-		"WORKSHOP" .1
-		"FORGE" .1
+		"DIGGING" 0.4
+
 	}
     permanentEffects = {
       MELEE_RESISTANCE 1
@@ -63,4 +62,31 @@
     name = {
       name = "clay golem"
     }
+  }
+  
+  "ISEKAI_CLAY_DOLL"
+  {
+    viewId = { "rbrn_clay_doll" }
+    attr = {
+      DAMAGE 2
+      DEFENSE 14 
+    }
+    body = {
+      type = Humanoid MEDIUM
+	  material = CLAY
+    }
+    chatReactionFriendly = "Good day, master!"
+    chatReactionHostile = "\"Die!\""
+    skills = {
+      "JEWELER" 0.2
+	  "WORKSHOP" 0.2
+	  "FORGE" 0.1
+    }
+    permanentEffects = {
+      ELF_VISION 1
+    }
+    name = {
+      name = "clay doll"
+    }
+    hatedByEffect = HATE_ELVES
   }
