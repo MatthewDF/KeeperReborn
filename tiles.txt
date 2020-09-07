@@ -7,4 +7,4 @@
 	{ "rbrn_rock_wall_5" "@" ColorId BROWN }
 	{ "rbrn_rock_wall_6" "@" ColorId BROWN }
 	{ "rbrn_clay_golem" "@" ColorId BROWN }
-	{ "rbrn_clay_spider" "@" ColorId BROWN }
+	{ "rbrn_clay_doll" "@" ColorId BROWN }

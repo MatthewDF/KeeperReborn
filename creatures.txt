@@ -64,35 +64,29 @@
     }
   }
   
-  "ISEKAI_CLAY_SPIDER"
+  "ISEKAI_CLAY_DOLL"
   {
-    viewId = { "rbrn_clay_spider" }
+    viewId = { "rbrn_clay_doll" }
     attr = {
-      DAMAGE 5
-      DEFENSE 16 
+      DAMAGE 2
+      DEFENSE 14 
     }
     body = {
       type = Humanoid MEDIUM
 	  material = CLAY
-      bodyParts = {
-        LEG 8
-        TORSO 1
-      }
-
-      weight = 0.3
-      deathSound = none
-      intrinsicAttacks = {
-        TORSO {{{ Intrinsic { "bite_attack" } "fangs" 1 {
-            attackType = BITE
-            attackMsg = BITE
-            victimEffect = {0.1 Lasting POISON} } }}}
-      }
     }
-	skills = {
-		"WORKSHOP" 0.1
-		"FORGE" 0.1
-	}
+    chatReactionFriendly = "Good day, master!"
+    chatReactionHostile = "\"Die!\""
+    skills = {
+      "JEWELER" 0.2
+	  "WORKSHOP" 0.2
+	  "FORGE" 0.1
+    }
+    permanentEffects = {
+      ELF_VISION 1
+    }
     name = {
-      name = "clay spider"
+      name = "clay doll"
     }
+    hatedByEffect = HATE_ELVES
   }
